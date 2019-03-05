@@ -1,17 +1,95 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-.heading {
-    text-align: center;
-    padding-top: 10%;
-    font-family: 'Raleway', 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 48px;
+a {
+    color: black;
+    text-decoration: none;
 }
 
-.body {
+.home {
+    left: 0px;
+    position: fixed;
     vertical-align: middle;
+}
+
+.myface {
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    overflow: hidden;
+
+}
+
+.intro {
     text-align: center;
     padding-top: 10%;
-    font-family: 'Roboto', 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 24px;
+    font-family: 'Raleway', 'Open Sans', 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4em;
+}
+
+.description {
+    text-align: center;
+    font-family: 'Open Sans', 'Roboto', 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.4em;
+}
+
+.menu {
+    font-family: 'Roboto', 'Raleway', 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+/* .menu ul li a:hover:not(.active) {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.menu ul a:.active {
+    background-color: black;
+} */
+
+.icon {
+    padding: 0.5em;
+    color: #5dc0a6;
+}
+
+.header-item {
+    vertical-align: middle;
+}
+
+.box {
+    background-color: white;
+    width: auto;
+    text-align: center;
+    height: inherit;
+}
+
+.social-box {
+    width: 25%;
+    display: block;
+    position: absolute;
+    margin-left: 37.5%;
+    margin-top: 1%;
+}
+
+.social-icon {
+    padding: 0.4em;
+}
+
+.footer {
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
 }
