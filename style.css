@@ -71,7 +71,7 @@ a {
     display: inline-block;
     animation-delay: 3.9s;
     visibility: hidden;
-    animation: appear 0.5s linear 3.9s 1 normal forwards;
+    animation: appear 0.5s linear 4.3s 1 normal forwards;
 }
 
 .icon {
@@ -112,18 +112,9 @@ a {
     animation-delay: 3.6s;
 }
 
-/* .social-box li:nth-of-type(5) {
+.social-box li:nth-of-type(5) {
     animation-delay: 4.0s;
 }
-
-.social-box li:nth-of-type(6) {
-    animation-delay: 4.4s;
-}
-
-.social-box li:nth-of-type(7) {
-    animation-delay: 4.8s;
-} */
-
 
 @keyframes rotate_and_appear {
     0% {
