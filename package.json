@@ -1,0 +1,30 @@
+{
+  "name": "baibhav.dev",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "lint": "prettier --write src/**/*.{css,html,js}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaibhaVatsa/baibhavatsa.github.io.git"
+  },
+  "keywords": [],
+  "author": "Baibhav Vatsa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BaibhaVatsa/baibhavatsa.github.io/issues"
+  },
+  "homepage": "https://github.com/BaibhaVatsa/baibhavatsa.github.io#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
